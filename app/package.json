@@ -1,0 +1,22 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "serve": "http-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^0.9.0",
+    "ts-loader": "^1.2.1",
+    "webpack": "^1.13.3"
+  },
+  "dependencies": {
+    "geom": "../geom",
+    "systemjs": "^0.19.41"
+  }
+}

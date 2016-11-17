@@ -1,0 +1,25 @@
+{
+  "name": "geom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/geom.js",
+  "files": [
+    "dist/"
+  ],
+  "dependencies": {
+    "math": "file:///Users/dan/Development/mixbook/workspace/multi-npm-repo-demo/math"
+  },
+  "devDependencies": {
+    "rollup": "^0.36.3",
+    "rollup-plugin-typescript": "^0.8.1",
+    "ts-loader": "^1.2.1",
+    "webpack": "^1.13.3"
+  },
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "typings": "./dist/geom.d.ts",
+  "author": "",
+  "license": "ISC"
+}
