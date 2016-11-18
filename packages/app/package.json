@@ -16,7 +16,7 @@
     "webpack": "^1.13.3"
   },
   "dependencies": {
-    "geom": "../geom",
+    "geom": "^1.0.0",
     "systemjs": "^0.19.41"
   }
 }
