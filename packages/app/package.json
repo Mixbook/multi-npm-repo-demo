@@ -5,14 +5,10 @@
   "main": "index.js",
   "scripts": {
     "build": "../../node_modules/.bin/webpack",
-    "serve": "http-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "http-server": "^0.9.0"
-  },
   "dependencies": {
     "geom": "^1.0.0",
     "systemjs": "^0.19.41"
