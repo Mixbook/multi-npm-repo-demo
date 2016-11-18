@@ -4,15 +4,11 @@
   "description": "",
   "main": "./dist/math.js",
   "scripts": {
-    "build": "webpack",
+    "build": "../../node_modules/.bin/webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "ts-loader": "^1.2.1",
-    "webpack": "^1.13.3"
-  },
   "files": [
     "dist/"
   ],

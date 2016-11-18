@@ -10,6 +10,8 @@
   "license": "ISC",
   "devDependencies": {
     "lerna": "^2.0.0-beta.30",
-    "typescript": "^2.0.10"
+    "ts-loader": "^1.2.1",
+    "typescript": "^2.0.10",
+    "webpack": "^1.13.3"
   }
 }
