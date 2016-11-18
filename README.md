@@ -15,6 +15,12 @@ The repository contains the following sub-projects with cross-dependencies:
 symlinks for cross-dependencies so that changes don't require having to manually run 
 `npm install [dep]` whenever a cross-dependency changes.
 
+## Issues
+
+* Lerna `run` command doesn't take into consideration the dependencies of packages, so
+builds won't happen in any specific order. This can cause problems where a module is built
+before one of its cross-dependencies are built.
+
 ## Running
 
 * Clone the project
